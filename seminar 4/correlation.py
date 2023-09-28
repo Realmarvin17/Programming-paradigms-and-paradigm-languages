@@ -31,5 +31,5 @@ def correlation(data1, data2):
     return covariance(data1, data2) / np.sqrt(variance(data1) * variance(data2))
 
 
-print(correlation([1, 2, 3, 4, 5], [5, 4, 3, 2, 1]))
-print(correlation([2, 3, 4, 5, 6], [5, 6, 3, 2, 4]))
+print(correlation([1, 2, 3, 4, 5], [1, 2, 3, 4, 5]))
+print(correlation([2, 3, 4, 5, 6], [1, 2, 3, 4, 5]))
